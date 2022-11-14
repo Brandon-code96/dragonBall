@@ -12,7 +12,7 @@
     margin: auto; /*contenedor este centrado horizontalmente*/
     width: 900px; /*Ancho de Contenedor*/
     height: 530px; /*Altura del Contenedor*/
-    background-image: url("img/kakarot-mapa.png");
+    /* background-image: url("img/kakarot-mapa.png"); */
     border: 5px solid rgb(211, 211, 82); /*Ancho del borde(7px), Efecto tipo de borde(Dashed), Color del borde (#993)*/
     background-repeat: no-repeat;
 }
@@ -41,7 +41,7 @@
     padding: 10px 0px;
 }
 .fondo{
-    background-image: url("img/905292.png");
+    /* background-image: url("img/905292.png"); */
     background-repeat: no-repeat;
     background-size: cover ;   
     background-position: center center center;

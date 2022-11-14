@@ -33,7 +33,7 @@ document.getElementById('bolita').addEventListener("mouseover", sumarPuntos);
 function restarTiempo(){
     tiempo--; //aqui hacemos que el tiempo decrezca de 1 en 1 
     document.getElementById("tiempo").innerHTML = tiempo;
-    if(tiempo ==0){
+    if(tiempo ==-1){
         alert("Pierdes")
         tiempo = 40;
         puntos = 0;

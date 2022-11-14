@@ -26,17 +26,19 @@ a{
 
 ;
 }
-.boton{
+/* .boton{
     width: 400px;
     height: 200px;
     bottom: 10px;
     left: 87%;
     position: fixed;
-}
-/* .boton{
+} */
+
+/* Boton centrado */
+.boton{
     width: 50%;
     height: 20%;
     bottom: 10px;
     left: 40%;
     position: fixed;
-} */
+}

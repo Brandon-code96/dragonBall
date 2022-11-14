@@ -1,8 +1,6 @@
 const videos = document.getElementById('videos');
 
-document.addEventListener('keydown', function(evento){
-    if (evento = 'enter' ) {
-        videos.innerHTML += '<video autoplay loop src="video/dbz.mp4"></video>'
-    }
-} )
-alert('Presiona F11 para una mejor experiencia');
+//Se muestra el video con sus respectivos controles
+videos.innerHTML += '<video autoplay="autoplay" loop controls src="video/dbz.mp4"></video>'
+
+

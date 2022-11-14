@@ -2,6 +2,11 @@
      margin: 0%;
      padding: 0%;
 }
+h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
 .fondo{
    
      background-image: url("img/fondo\ 5.png");
